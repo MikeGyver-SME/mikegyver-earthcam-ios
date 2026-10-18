@@ -1,6 +1,13 @@
 import WidgetKit
 import SwiftUI
 
+@main
+struct EarthCamWidgetBundle: WidgetBundle {
+    var body: some Widget {
+        EarthCamWidget()
+    }
+}
+
 struct EarthCamWidget: Widget {
     let kind = "studio.mikegyver.earthcam.widget"
 
