@@ -130,14 +130,14 @@ struct MapPin: View {
             ZStack {
                 Circle()
                     .fill(Brand.navy)
-                    .frame(width: 34, height: 34)
+                    .frame(width: 22, height: 22)
                 Circle()
-                    .stroke(Brand.gold, lineWidth: 3)
-                    .frame(width: 34, height: 34)
+                    .stroke(Brand.gold, lineWidth: 2)
+                    .frame(width: 22, height: 22)
             }
             Triangle()
                 .fill(Brand.navy)
-                .frame(width: 14, height: 10)
+                .frame(width: 10, height: 7)
                 .offset(y: -1)
         }
         .shadow(radius: 2)
